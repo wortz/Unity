@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClickButton : MonoBehaviour
+public class MakeScript : MonoBehaviour
 {
     public void ButtonClicked(){
-        GlobalCookies.CookieCount += 1;
+        MainValues.CookieCount += 1;
     }
 }
